@@ -1,0 +1,12 @@
+
+
+div.textcolumn { box-sizing: border-box; }
+
+@media screen and (min-width: 800px) {
+  div.textcolumn { column-count: 2 }
+}
+
+@media screen and (min-width: 1000px) {  
+    div.textcolumn { column-count: 3 }
+ }
+
